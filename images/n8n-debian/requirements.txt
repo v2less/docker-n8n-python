@@ -2,3 +2,4 @@ fire
 pyjwt
 urllib3
 requests
+matplotlib

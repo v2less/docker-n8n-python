@@ -10,7 +10,7 @@ RUN if [ -z "$N8N_VERSION" ] ; then echo "The N8N_VERSION argument is missing!" 
 
 RUN \
 	apt-get update && \
-	apt-get -y install graphicsmagick gosu git vim jq
+	apt-get -y install graphicsmagick gosu git vim jq fonts-noto-cjk
 
 # Install python requirements
 RUN mkdir /requirements

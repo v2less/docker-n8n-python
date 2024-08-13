@@ -5,6 +5,7 @@ if [ -d /root/.n8n ] ; then
   chown -R node /root/.n8n
   ln -s /root/.n8n /home/node/
 fi
+chown -R node /tmp
 
 if [ "$#" -gt 0 ]; then
   # Got started with arguments
