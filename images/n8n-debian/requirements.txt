@@ -3,3 +3,4 @@ pyjwt
 urllib3
 requests
 matplotlib
+redis
